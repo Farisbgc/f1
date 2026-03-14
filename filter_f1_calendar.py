@@ -47,22 +47,23 @@ def event_should_be_kept(event_lines):
             break
 
     blocked_types = {
-        "Practice 1",
-        "Practice 2",
-        "Practice 3",
-        "Practice",
-        "Training",
-        "FP1",
-        "FP2",
-        "FP3",
-        "Free Practice",
+        "practice 1",
+        "practice 2",
+        "practice 3",
+        "practice",
+        "training",
+        "fp1",
+        "fp2",
+        "fp3",
+        "free practice",
     }
 
     allowed_types = {
-        "Qualifying",
-        "Race",
-        "Sprint Qualification",
-        "Sprint Race",
+        "qualifying",
+        "race",
+        "sprint qualification",
+        "sprint race",
+        "sprint qualifying",
     }
 
     event_type = summary
