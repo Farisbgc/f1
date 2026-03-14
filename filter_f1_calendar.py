@@ -31,6 +31,14 @@ def get_prop_value(line: str) -> str:
     return line.split(":", 1)[1] if ":" in line else ""
 
 
+def shorten_summary(line: str) -> str:
+    prop, _, value = line.partition(":")
+    m = re.match(r'^(.*?)\s*FORMULA 1\s+.+?\s(\S+)\s+GRAND PRIX\s+\d+\s+-\s+(.+)$', value)
+    if m:
+        return f"{prop}:{m.group(1)} {m.group(2)} - {m.group(3)}"
+    return line
+
+
 def normalize_text(s: str) -> str:
     s = s.lower().strip()
     s = s.replace("\\,", ",").replace("\\;", ";").replace("\\n", " ")
@@ -124,7 +132,12 @@ def main():
                 in_alarm = False
                 continue
             if not in_alarm:
-                event_lines.append(line)
+                if line.upper().startswith("DESCRIPTION"):
+                    continue
+                if line.upper().startswith("SUMMARY"):
+                    event_lines.append(shorten_summary(line))
+                else:
+                    event_lines.append(line)
         else:
             if line not in ("BEGIN:VCALENDAR", "END:VCALENDAR"):
                 calendar_props.append(line)
