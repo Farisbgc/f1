@@ -31,11 +31,18 @@ def get_prop_value(line: str) -> str:
     return line.split(":", 1)[1] if ":" in line else ""
 
 
+_TWO_WORD_LOCATIONS = {
+    "DHABI": "ABU DHABI",
+    "ARABIAN": "SAUDI ARABIAN",
+}
+
+
 def shorten_summary(line: str) -> str:
     prop, _, value = line.partition(":")
     m = re.match(r'^(.*?)\s*FORMULA 1\s+.+?\s(\S+)\s+GRAND PRIX\s+\d+\s+-\s+(.+)$', value)
     if m:
-        return f"{prop}:{m.group(1)} {m.group(2)} - {m.group(3)}"
+        location = _TWO_WORD_LOCATIONS.get(m.group(2), m.group(2))
+        return f"{prop}:{m.group(1)} {location} - {m.group(3)}"
     return line
 
 
