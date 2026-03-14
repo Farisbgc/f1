@@ -1,0 +1,33 @@
+name: Update filtered F1 calendar
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 1 * *"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Kalender filtern
+        run: python filter_f1_calendar.py
+
+      - name: Datei committen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add f1_filtered.ics
+          git diff --cached --quiet || git commit -m "Update filtered calendar"
+          git push
