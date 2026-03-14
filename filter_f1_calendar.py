@@ -4,23 +4,6 @@ import urllib.request
 SOURCE_URL = "https://ics.ecal.com/ecal-sub/6802beecdebd000008e3b6ef/Formula%201.ics"
 OUTPUT_FILE = "f1_filtered.ics"
 
-ALLOWED_TYPES = {
-    "Race",
-    "Qualifying",
-    "Sprint",
-    "Sprint Qualifying",
-    "Sprint Shootout",
-}
-
-BLOCKED_WORDS = {
-    "Practice",
-    "Training",
-    "FP1",
-    "FP2",
-    "FP3",
-    "Free Practice",
-}
-
 
 def unfold_ics_lines(text: str):
     lines = text.splitlines()
@@ -55,43 +38,44 @@ def normalize_text(s: str) -> str:
     return s
 
 
-def parse_event_type(summary: str) -> str:
-    summary = normalize_text(summary)
-
-    # nimm den Teil nach dem letzten Trenner
-    for sep in [" - ", " – ", " — ", ": "]:
-        if sep in summary:
-            return summary.rsplit(sep, 1)[-1].strip()
-
-    return summary.strip()
-
-
 def event_should_be_kept(event_lines):
     summary = ""
-    description = ""
 
     for line in event_lines:
-        upper = line.upper()
-        if upper.startswith("SUMMARY"):
-            summary = get_prop_value(line)
-        elif upper.startswith("DESCRIPTION"):
-            description = get_prop_value(line)
+        if line.upper().startswith("SUMMARY"):
+            summary = normalize_text(get_prop_value(line))
+            break
 
-    text = normalize_text(summary + " " + description)
+    blocked_types = {
+        "Practice 1",
+        "Practice 2",
+        "Practice 3",
+        "Practice",
+        "Training",
+        "FP1",
+        "FP2",
+        "FP3",
+        "Free Practice",
+    }
 
-    for word in BLOCKED_WORDS:
-        if word in text:
-            return False
+    allowed_types = {
+        "Qualifying",
+        "Race",
+        "Sprint Qualification",
+        "Sprint Race",
+    }
 
-    event_type = parse_event_type(summary)
+    event_type = summary
+    for sep in [" - ", " – ", " — ", ": "]:
+        if sep in summary:
+            event_type = summary.rsplit(sep, 1)[-1].strip()
+            break
 
-    if event_type in ALLOWED_TYPES:
+    if event_type in blocked_types:
+        return False
+
+    if event_type in allowed_types:
         return True
-
-    # Fallback: falls der Event-Typ nicht sauber getrennt ist
-    for allowed in ALLOWED_TYPES:
-        if summary.lower().endswith(allowed):
-            return True
 
     return False
 
@@ -163,9 +147,6 @@ def main():
 
     print(f"Found {len(found_summaries)} total events")
     print(f"Kept {len(kept_events)} events")
-    print("--- First 20 summaries from source ---")
-    for s in found_summaries[:20]:
-        print(s)
     print("--- First 20 kept summaries ---")
     for event in kept_events[:20]:
         for line in event:
