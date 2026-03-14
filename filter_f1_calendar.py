@@ -4,22 +4,22 @@ import urllib.request
 SOURCE_URL = "https://ics.ecal.com/ecal-sub/6802beecdebd000008e3b6ef/Formula%201.ics"
 OUTPUT_FILE = "f1_filtered.ics"
 
-KEEP_ENDINGS = [
+ALLOWED_TYPES = {
     "Race",
     "Qualifying",
+    "Sprint",
     "Sprint Qualifying",
     "Sprint Shootout",
-    "Sprint",
-]
+}
 
-DROP_WORDS = [
+BLOCKED_WORDS = {
     "Practice",
     "Training",
     "FP1",
     "FP2",
     "FP3",
     "Free Practice",
-]
+}
 
 
 def unfold_ics_lines(text: str):
@@ -55,6 +55,17 @@ def normalize_text(s: str) -> str:
     return s
 
 
+def parse_event_type(summary: str) -> str:
+    summary = normalize_text(summary)
+
+    # nimm den Teil nach dem letzten Trenner
+    for sep in [" - ", " – ", " — ", ": "]:
+        if sep in summary:
+            return summary.rsplit(sep, 1)[-1].strip()
+
+    return summary.strip()
+
+
 def event_should_be_kept(event_lines):
     summary = ""
     description = ""
@@ -62,25 +73,24 @@ def event_should_be_kept(event_lines):
     for line in event_lines:
         upper = line.upper()
         if upper.startswith("SUMMARY"):
-            summary = normalize_text(get_prop_value(line))
+            summary = get_prop_value(line)
         elif upper.startswith("DESCRIPTION"):
-            description = normalize_text(get_prop_value(line))
+            description = get_prop_value(line)
 
-    haystack = f"{summary} {description}"
+    text = normalize_text(summary + " " + description)
 
-    for word in DROP_WORDS:
-        if word in haystack:
+    for word in BLOCKED_WORDS:
+        if word in text:
             return False
 
-    # Wichtig: viele eCal-Termine enden auf " - Race", " - Qualifying" usw.
-    # Daher besonders das Ende des SUMMARY prüfen.
-    for ending in KEEP_ENDINGS:
-        if summary.endswith(f" - {ending}") or summary.endswith(f"– {ending}") or summary.endswith(ending):
-            return True
+    event_type = parse_event_type(summary)
 
-    # Fallback
-    for ending in KEEP_ENDINGS:
-        if ending in haystack:
+    if event_type in ALLOWED_TYPES:
+        return True
+
+    # Fallback: falls der Event-Typ nicht sauber getrennt ist
+    for allowed in ALLOWED_TYPES:
+        if summary.lower().endswith(allowed):
             return True
 
     return False
@@ -94,6 +104,7 @@ def main():
 
     calendar_props = []
     kept_events = []
+    found_summaries = []
 
     in_event = False
     event_lines = []
@@ -107,8 +118,15 @@ def main():
         if line == "END:VEVENT":
             event_lines.append(line)
             in_event = False
+
+            for l in event_lines:
+                if l.upper().startswith("SUMMARY"):
+                    found_summaries.append(get_prop_value(l))
+                    break
+
             if event_should_be_kept(event_lines):
                 kept_events.append(event_lines)
+
             event_lines = []
             continue
 
@@ -143,7 +161,17 @@ def main():
     with open(OUTPUT_FILE, "w", encoding="utf-8", newline="") as f:
         f.write("\r\n".join(folded) + "\r\n")
 
-    print(f"Kept {len(kept_events)} events.")
+    print(f"Found {len(found_summaries)} total events")
+    print(f"Kept {len(kept_events)} events")
+    print("--- First 20 summaries from source ---")
+    for s in found_summaries[:20]:
+        print(s)
+    print("--- First 20 kept summaries ---")
+    for event in kept_events[:20]:
+        for line in event:
+            if line.upper().startswith("SUMMARY"):
+                print(get_prop_value(line))
+                break
 
 
 if __name__ == "__main__":
