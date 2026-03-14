@@ -37,13 +37,59 @@ _TWO_WORD_LOCATIONS = {
 }
 
 
-def shorten_summary(line: str) -> str:
+def extract_location_from_gp_title(value: str) -> str:
+    """Extract location name from non-English GP titles.
+
+    Handles patterns like:
+      GRAND PRIX DU CANADA, GRAND PRIX DE MONACO,
+      GRAN PREMIO D'ITALIA, GRAN PREMIO DE ESPAÑA,
+      GRAN PREMIO DE BARCELONA-CATALUNYA → BARCELONA,
+      GRAN PREMIO DE LA CIUDAD DE MÉXICO → MÉXICO,
+      GRANDE PRÊMIO DE SÃO PAULO
+    """
+    m = re.search(
+        r"(?:GRAND PRIX|GRAN PREMIO|GRANDE PRÊMIO)\s+"
+        r"(?:DE LA CIUDAD DE|DE LA|DU|DE|D'|DAS|DO)\s+"
+        r"(.+?)\s+\d{4}\s*-",
+        value, re.IGNORECASE,
+    )
+    if m:
+        loc = re.split(r"[-–]", m.group(1).strip())[0].strip()
+        return loc.upper()
+    return ""
+
+
+def shorten_summary(line: str, location: str = "") -> str:
     prop, _, value = line.partition(":")
+    # Try English "GRAND PRIX" pattern first
     m = re.match(r'^(.*?)\s*FORMULA 1\s+.+?\s(\S+)\s+GRAND PRIX\s+\d+\s+-\s+(.+)$', value)
     if m:
-        location = _TWO_WORD_LOCATIONS.get(m.group(2), m.group(2))
-        return f"{prop}:{m.group(1)} {location} - {m.group(3)}"
+        loc = _TWO_WORD_LOCATIONS.get(m.group(2), m.group(2))
+        return f"{prop}:{m.group(1)} {loc} - {m.group(3)}"
+    # Try to extract location from non-English GP title
+    emoji_m = re.match(r'^(.*?)\s*FORMULA 1\s+.+\s+-\s+(.+)$', value)
+    if emoji_m:
+        loc = extract_location_from_gp_title(value) or location
+        if loc:
+            return f"{prop}:{emoji_m.group(1)} {loc} - {emoji_m.group(2)}"
     return line
+
+
+def process_event(event_lines):
+    location = ""
+    for line in event_lines:
+        if line.upper().startswith("LOCATION"):
+            location = get_prop_value(line).strip().upper()
+            break
+    result = []
+    for line in event_lines:
+        if line.upper().startswith("DESCRIPTION"):
+            continue
+        if line.upper().startswith("SUMMARY"):
+            result.append(shorten_summary(line, location))
+        else:
+            result.append(line)
+    return result
 
 
 def normalize_text(s: str) -> str:
@@ -126,7 +172,7 @@ def main():
                     break
 
             if event_should_be_kept(event_lines):
-                kept_events.append(event_lines)
+                kept_events.append(process_event(event_lines))
 
             event_lines = []
             continue
@@ -139,12 +185,7 @@ def main():
                 in_alarm = False
                 continue
             if not in_alarm:
-                if line.upper().startswith("DESCRIPTION"):
-                    continue
-                if line.upper().startswith("SUMMARY"):
-                    event_lines.append(shorten_summary(line))
-                else:
-                    event_lines.append(line)
+                event_lines.append(line)
         else:
             if line not in ("BEGIN:VCALENDAR", "END:VCALENDAR"):
                 calendar_props.append(line)
