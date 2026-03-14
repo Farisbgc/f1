@@ -30,16 +30,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28SWvx/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8SWvW/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28SWwl/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28SWxC/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -67,16 +57,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28SWBs/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8SWBT/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28SWC8/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28SWDB/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -104,16 +84,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28SX3t/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8SX3S/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28SX45/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28SX5z/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -141,16 +111,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28SX9b/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8SX9G/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28SXb3/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28SXcx/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -179,16 +139,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28SVnR/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8SVpc/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28SVpw/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28SVqw/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -216,16 +166,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28SVt9/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8SVtt/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28SVtP/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28SVvV/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -253,16 +193,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28SVyx/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8SVyW/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28SVz7/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28SVBf/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -290,16 +220,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28SVDQ/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8SVF5/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28SVFn/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28SVGj/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -327,16 +247,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28SVXn/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8SVXN/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28SVY4/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28SVZj/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -364,16 +274,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28SW2Q/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8SW38/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28SW3m/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28SW4p/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -401,16 +301,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28SW7Q/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8SW86/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28SW8x/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28SW9D/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -438,16 +328,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28SY12/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8SY1p/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28SY1M/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28SY3d/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -475,16 +355,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28SY6p/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8SY6G/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28SY73/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28SY8h/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -512,16 +382,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28SYd5/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8SYdq/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28SYdJ/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28SYg1/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -549,16 +409,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28SYC9/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8SYCy/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28SYCT/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28SYDZ/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -586,16 +436,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28SXsT/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8SXtg/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28SXtH/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28SXw8/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -623,16 +463,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28SXGq/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8SXGL/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28SXHc/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28SXKh/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -660,16 +490,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28SZ7c/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8SZ7z/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28SZ7Y/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28SZ9q/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -697,16 +517,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28SZd4/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8SZdm/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28SZdG/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28SZg1/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -734,16 +544,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28SZDf/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8SZDy/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28SZF9/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28SZGp/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -771,16 +571,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28SZKK/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8SZKZ/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28SZLl/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28SZMH/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -808,16 +598,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28T1BT/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8T1Cd/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T1Cq/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T1DB/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -845,16 +625,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28SVS8/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8SVSv/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28SVSK/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28SVTS/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -882,16 +652,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28T2rH/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8T2rX/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T2s9/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T2tc/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -919,16 +679,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28T3bV/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8T3ch/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T3cD/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T3dv/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -956,16 +706,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28T3hl/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8T3hD/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T3j2/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T3kb/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -993,16 +733,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28T2FP/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8T2G6/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T2Gs/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T2HB/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -1030,16 +760,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28T2LW/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8T2Mh/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T2MC/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T2NK/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -1067,16 +787,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28T2Rx/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8T2RN/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T2Sb/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T2Tm/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -1105,16 +815,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28T3QL/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8T3R3/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T3Rq/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T3SK/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -1143,16 +843,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28T3Zm/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8T3ZB/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T3ZN/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T41W/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -1180,16 +870,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28T49v/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8T49V/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T4bk/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T4cg/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -1217,16 +897,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28T3DY/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8T3Fn/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T3FB/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T3GW/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -1254,16 +924,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28T4xm/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8T4xG/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T4y2/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T4z8/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -1291,16 +951,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28T4CB/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8T4CY/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T4Dg/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T4Fp/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -1329,16 +979,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28T4Yb/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8T4Yy/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T4YS/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T4ZY/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -1366,16 +1006,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28T5s6/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8T5sx/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T5sM/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T5vj/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -1403,16 +1033,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28T5yJ/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8T5z8/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T5B2/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T5CF/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -1440,16 +1060,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28T62k/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8T62L/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T63m/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T64C/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -1477,16 +1087,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28T67l/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8T67F/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T688/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T69p/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -1514,16 +1114,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28T6x5/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8T6xs/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T6yq/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T6zB/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -1551,16 +1141,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28T6DW/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8T6Fl/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T6FG/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T6GW/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -1589,16 +1169,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28T74P/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8T75d/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T75y/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T76V/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -1626,16 +1196,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28T7bq/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8T7bG/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T7c1/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T7dg/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -1663,16 +1223,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28T7DM/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8T7F7/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T7Fr/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T7GD/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -1700,16 +1250,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28T7Ln/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8T7LP/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T7M8/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T7NJ/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -1738,16 +1278,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28T44z/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8T44Q/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T456/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T46j/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -1775,16 +1305,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28SYJL/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8SYK9/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28SYKx/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28SYLX/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -1812,16 +1332,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28T1tr/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8T1tM/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T1v9/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T1w7/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -1849,16 +1359,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28T2mm/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8T2mL/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T2n3/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T2pb/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -1886,16 +1386,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28T1p9/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8T1pr/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T1pH/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T1qD/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -1924,16 +1414,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28SVNy/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8SVNR/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28SVPc/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28SVPY/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -1961,16 +1441,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28SXTV/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8SXVm/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28SXVP/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28SXWR/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -1999,16 +1469,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28T2zW/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8T2B8/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T2Bq/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T2Cl/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -2036,16 +1496,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28T3L4/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8T3Lp/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T3LF/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T3MH/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20260311T120955Z
@@ -2074,16 +1524,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  al.f1.com/f/28T54l/32rfG\n\nFollow us on Instagram\nhttps://cal.f1.com/f/2
  8T54L/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T556/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T564/32rfG\n\n
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:00010101T000000Z
@@ -2113,16 +1553,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  8T1WR/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T1X7/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T1Y8/32rfG\n\n
 X-ECAL-SCHEDULE:63ed7ac44c410f0d565a4a7e
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:00010101T000000Z
@@ -2151,16 +1581,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  8T21P/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T228/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T23b/32rfG\n\n
 X-ECAL-SCHEDULE:63ed7ac44c410f0d565a4a7e
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:00010101T000000Z
@@ -2190,16 +1610,6 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  8T17J/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T17V/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T197/32rfG\n\n
 X-ECAL-SCHEDULE:63ed7ac44c410f0d565a4a7e
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:00010101T000000Z
@@ -2228,15 +1638,5 @@ DESCRIPTION:Follow all the action on F1 TV and F1.com. \n\nUnlock the insid
  8T1f2/32rfG\n\nFollow us on TikTok\nhttps://cal.f1.com/f/28T1fk/32rfG\n\nM
  anage my ECAL\nhttps://cal.f1.com/f/28T1gp/32rfG\n\n
 X-ECAL-SCHEDULE:63ed7ac44c410f0d565a4a7e
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
 END:VEVENT
 END:VCALENDAR
