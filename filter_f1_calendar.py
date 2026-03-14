@@ -92,6 +92,7 @@ def main():
     found_summaries = []
 
     in_event = False
+    in_alarm = False
     event_lines = []
 
     for line in lines:
@@ -116,7 +117,14 @@ def main():
             continue
 
         if in_event:
-            event_lines.append(line)
+            if line == "BEGIN:VALARM":
+                in_alarm = True
+                continue
+            if line == "END:VALARM":
+                in_alarm = False
+                continue
+            if not in_alarm:
+                event_lines.append(line)
         else:
             if line not in ("BEGIN:VCALENDAR", "END:VCALENDAR"):
                 calendar_props.append(line)
